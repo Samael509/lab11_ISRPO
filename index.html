@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Youtube Clone</h1>
+    <header class="header">
+        <!-- Логотип и меню -->
+        <div class="header-left">
+            <button class="menu-btn">≡</button>
+            <div class="logo">
+                <span class="logo-icon">▶</span>
+                <span class="logo-text">Youtube</span>
+            </div>
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="поиск" class="search-input" />
+            <button class="search-btn">&#128269</button> <!-- символы копируются не корректно, а Win+ у меня не работает -->
+        </div>
+
+        <div class="header-right">
+            <button>➕</button>
+            <button>&#128276</button>
+            <img src="https://placehold.ru/32" alt="Avatar" class="avatar" />
+        </div>
+    </header>
+    <div class="content">
+            <aside class="sidebar">
+                <nav>
+                    <a href="#" class="sidebar-link active">
+                        <span class="icon">🏠</span>
+                        <span>главная</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <span class="icon">🔥</span>
+                        <span>в тренде</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <span class="icon">✉️</span>
+                        <span>подписки</span>
+                    </a>
+                </nav>
+                <hr />
+                <nav>
+                    <a href="#" class="sidebar-link">
+                        <span class="icon">📚</span>
+                        <span>библиотека</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <span class="icon">🕐</span>
+                        <span>история</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <span class="icon">👍</span>
+                        <span>понравилось</span>
+                    </a>
+                </nav>
+            </aside>
+            <main class="main">
+                <div class="chips">
+                    <div class="chip active">Все</div>
+                    <div class="chip">Музыка</div>
+                    <div class="chip">Игры</div>
+                    <div class="chip">Новости</div>
+                    <div class="chip">Спорт</div>
+                    <div class="chip">Образование</div>
+                    <div class="chip">Технологии</div>
+                </div>
+            </main>
+        </div>
+</body>
+</html>
